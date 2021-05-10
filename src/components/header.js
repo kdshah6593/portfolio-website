@@ -12,16 +12,23 @@ const Header = ({ siteTitle, menuLinks }) => (
       </h1>
     </div>
     <nav>
-      <ul style={{ display: "flex", flexDirection: `row`, paddingTop: `1rem` }}>
+      <ul style={{ display: "flex", flexDirection: `row`, paddingTop: `1.5rem` }}>
         {menuLinks.map(link => (
           <li
             key={link.name}
             style={{
               listStyleType: `none`,
-              padding: `1rem 1rem 0rem 1rem`,
+              padding: `0.5rem 1rem 0.5rem 1rem`,
+              textAlign: `center`,
+              background: `#6184d4`,
+              marginRight: `10px`,
+              width: `10rem`,
+              border: `2px solid #6184d4`,
+              borderRadius: `30px`,
+
             }}
           >
-            <Link style={{ color: `#6184d4` }} to={link.link}>
+            <Link style={{ color: `#fff`, textDecoration: `none` }} to={link.link}>
               {link.name}
             </Link>
           </li>
