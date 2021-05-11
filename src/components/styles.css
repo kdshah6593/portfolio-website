@@ -6,16 +6,48 @@
     font-family: 'Nova Flat';
 }
 
-#index-header {
-    color: #D48C63;
-    text-align: center;
-    font-size: 120px;
-}
-
 .text-color {
     color: #D48C63;
 }
 
 .centered {
     text-align: center;
+}
+
+#index-header {
+    color: #D48C63;
+    text-align: center;
+    font-size: 120px;
+}
+
+#about-header {
+    color: #D48C63;
+    font-size: 90px;
+}
+
+#about-body {
+    margin: 0px 9px;
+}
+
+#about-container {
+    margin: 0 10rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-container-element {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+/* #about-text-container {
+    
+}
+
+#about-technical-skills {
+
+} */
+
+#tech-skills-header {
+    font-size: 50px;
 }
