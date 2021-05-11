@@ -8,17 +8,9 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>My name is Kunal Shah</h1>
-    <p>Welcome to my portfolio website.</p>
-    <p>Let us build something great together.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
+    <h1 style={{ color: `#D48C63`, textAlign: `center`}}>Hi, I'm Kunal</h1>
+    <p style={{ color: `#D48C63`, textAlign: `center`}}>Welcome to my portfolio website.</p>
+    <p style={{ color: `#D48C63`, textAlign: `center`}}>Let's build something great together.</p>
   </Layout>
 )
 
