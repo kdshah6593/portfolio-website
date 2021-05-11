@@ -28,6 +28,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /icons/
+        },
+      },
+    },
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-web-font-loader`,

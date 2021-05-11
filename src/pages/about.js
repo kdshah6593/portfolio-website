@@ -3,6 +3,9 @@ import "../components/styles.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import Redux from "../images/icons/redux.svg"
+import Rails from "../images/icons/rubyonrails.svg"
+import Icon from "../images/icons/react-brands.svg"
 
 const About = () => {
     return (
@@ -24,8 +27,13 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div id="about-technical-skills">
+                    <div>
                         <h2 className="centered text-color marker-font" id="tech-skills-header">Technical Skills</h2>
+                        <div id="technical-skills">
+                            <Redux/>
+                            <Rails/>
+                            <Icon />
+                        </div>
                     </div>
                 </div>
         </Layout>
