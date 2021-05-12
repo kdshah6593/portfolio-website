@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
       <div className="site" style={{ margin: `0` }}>
         <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
         <main className="site-content">{children}</main>
-        <footer style={{ marginTop: `2rem`, background: `#6184d4`, textAlign: `center` }}>
+        <footer style={{ marginTop: `2rem`, background: `#D48C63`, textAlign: `center` }}>
           <p>Designed by Kunal Shah</p>
           <p>© {new Date().getFullYear()}, Built with
           {` `}

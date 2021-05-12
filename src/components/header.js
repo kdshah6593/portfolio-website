@@ -9,7 +9,7 @@ const Header = ({ siteTitle, menuLinks }) => (
       <h1>
         <Link to="/" style={{ color: `#6184d4`, textDecoration: `none`, }}>
           <StaticImage
-            src="../images/KS-Logo-cropped.png"
+            src="../images/ks-logo-orange-grey-cropped.png"
             width={150}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
@@ -27,10 +27,10 @@ const Header = ({ siteTitle, menuLinks }) => (
               listStyleType: `none`,
               padding: `0.5rem 1rem 0.5rem 1rem`,
               textAlign: `center`,
-              background: `#6184d4`,
+              background: `#D48C63`,
               marginRight: `10px`,
               width: `10rem`,
-              border: `2px solid #6184d4`,
+              border: `2px solid #D48C63`,
               borderRadius: `30px`,
 
             }}
