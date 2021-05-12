@@ -33,11 +33,11 @@ const Layout = ({ children }) => {
         <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
         <main className="site-content">{children}</main>
         <footer style={{ marginTop: `2rem`, background: `#D48C63`, textAlign: `center` }}>
-          <p style={{color: '#E4E4E4'}}>Designed by Kunal Shah</p>
-          <p style={{color: '#E4E4E4'}}>© {new Date().getFullYear()}, Built with
+          <p style={{color: '#E4E4E4', fontFamily: 'Nova Flat'}}>Designed by Kunal Shah</p>
+          <p style={{color: '#E4E4E4', fontFamily: 'Nova Flat'}}>© {new Date().getFullYear()}, Built with
           {` `}
-          <a style={{color: '#E4E4E4'}} href="https://www.gatsbyjs.com">Gatsby</a></p>
-          <a style={{color: '#E4E4E4'}} href="https://github.com/kdshah6593/portfolio-website">Source Code</a>
+          <a style={{color: '#E4E4E4', fontFamily: 'Nova Flat'}} href="https://www.gatsbyjs.com">Gatsby</a></p>
+          <a style={{color: '#E4E4E4', fontFamily: 'Nova Flat'}} href="https://github.com/kdshah6593/portfolio-website">Source Code</a>
         </footer>
       </div>
     </>
