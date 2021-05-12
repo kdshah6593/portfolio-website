@@ -20,6 +20,24 @@
     font-size: 120px;
 }
 
+#index-body {
+    margin-top: 6rem;
+}
+
+#index-subheader {
+    font-size: 60px;
+    text-align: center;
+    color: #D48C63;
+    font-family: 'Nova Flat';
+}
+
+#index-subtitle {
+    font-size: 30px;
+    text-align: center;
+    color: #D48C63;
+    font-family: 'Nova Flat';
+}
+
 #about-header {
     color: #D48C63;
     font-size: 90px;
