@@ -398,7 +398,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 pre {
   margin-left: 0;
@@ -605,4 +605,29 @@ pre tt:after {
 
 .site-content {
   flex-grow: 1;
+}
+
+.click {
+  list-style-type: none;
+  background: #D48C63;
+  margin-right: 10px;
+  width: 7rem;
+  border: 2px solid #D48C63;
+  border-radius: 30px;
+  will-change: transform;
+  transition: 1000ms;
+}
+
+li.click:hover {
+  background: #C06835;
+  transform: translateY(-10px);
+  transition: 500ms;
+}
+
+.nav-btn {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }

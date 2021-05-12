@@ -21,21 +21,8 @@ const Header = ({ siteTitle, menuLinks }) => (
     <nav>
       <ul style={{ display: "flex", flexDirection: `row`, paddingTop: `1.5rem` }}>
         {menuLinks.map(link => (
-          <li
-            key={link.name}
-            style={{
-              listStyleType: `none`,
-              padding: `0.5rem 1rem 0.5rem 1rem`,
-              textAlign: `center`,
-              background: `#D48C63`,
-              marginRight: `10px`,
-              width: `10rem`,
-              border: `2px solid #D48C63`,
-              borderRadius: `30px`,
-
-            }}
-          >
-            <Link style={{ color: `#fff`, textDecoration: `none` }} to={link.link}>
+          <li key={link.name} className = "click">
+            <Link className="nav-btn" to={link.link}>
               {link.name}
             </Link>
           </li>
