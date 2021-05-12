@@ -5,7 +5,15 @@ import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import Redux from "../images/icons/redux.svg"
 import Rails from "../images/icons/rubyonrails.svg"
-import Icon from "../images/icons/react-brands.svg"
+import ReactIcon from "../images/icons/react-brands.svg"
+import Html5 from "../images/icons/html5.svg"
+import Css3 from "../images/icons/css3.svg"
+import JavaScript from "../images/icons/javascript.svg"
+import Bootstrap from "../images/icons/bootstrap.svg"
+import Gatsby from "../images/icons/gatsby.svg"
+import MaterialUI from "../images/icons/material-ui.svg"
+import SQLite from "../images/icons/sqlite.svg"
+
 
 const About = () => {
     return (
@@ -30,9 +38,16 @@ const About = () => {
                     <div>
                         <h2 className="centered text-color marker-font" id="tech-skills-header">Technical Skills</h2>
                         <div id="technical-skills">
-                            <Redux/>
-                            <Rails/>
-                            <Icon />
+                            <Redux className="icon" fill="#D48C63" />
+                            <Rails className="icon" fill="#D48C63" />
+                            <ReactIcon className="icon"  fill="#D48C63" />
+                            <Html5 className="icon" fill="#D48C63" />
+                            <Css3 className="icon" fill="#D48C63" />
+                            <JavaScript className="icon" fill="#D48C63" />
+                            <Bootstrap className="icon" fill="#D48C63" />
+                            <Gatsby className="icon" fill="#D48C63" />
+                            <MaterialUI className="icon" fill="#D48C63" />
+                            <SQLite className="icon" fill="#D48C63" />
                         </div>
                     </div>
                 </div>

@@ -51,3 +51,9 @@
 #tech-skills-header {
     font-size: 50px;
 }
+
+.icon {
+    height: 128px;
+    width: 128px;
+    color: #D48C63;
+}
