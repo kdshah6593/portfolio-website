@@ -42,18 +42,32 @@
 
 /* #about-text-container {
     
-}
+} */
 
 #technical-skills {
-
-} */
+    display: flex;
+    flex-direction: row;
+}
 
 #tech-skills-header {
     font-size: 50px;
 }
 
 .icon {
-    height: 128px;
-    width: 128px;
+    height: 96px;
+    width: 96px;
     color: #D48C63;
+}
+
+.tech-skill {
+    border: 3px solid #D48C63;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 5px;
+    padding: 10px 0;
+}
+
+.tech-skill p {
+    color: #D48C63;
+    font-family: "Righteous";
 }

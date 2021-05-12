@@ -38,16 +38,46 @@ const About = () => {
                     <div>
                         <h2 className="centered text-color marker-font" id="tech-skills-header">Technical Skills</h2>
                         <div id="technical-skills">
-                            <Redux className="icon" fill="#D48C63" />
-                            <Rails className="icon" fill="#D48C63" />
-                            <ReactIcon className="icon"  fill="#D48C63" />
-                            <Html5 className="icon" fill="#D48C63" />
-                            <Css3 className="icon" fill="#D48C63" />
-                            <JavaScript className="icon" fill="#D48C63" />
-                            <Bootstrap className="icon" fill="#D48C63" />
-                            <Gatsby className="icon" fill="#D48C63" />
-                            <MaterialUI className="icon" fill="#D48C63" />
-                            <SQLite className="icon" fill="#D48C63" />
+                            <div className="tech-skill">
+                                <Redux className="icon" fill="#D48C63" />
+                                <p>Redux</p>
+                            </div>
+                            <div className="tech-skill">
+                                <Rails className="icon" fill="#D48C63" />
+                                <p>Rails</p>
+                            </div>
+                            <div className="tech-skill">
+                                <ReactIcon className="icon"  fill="#D48C63" />
+                                <p>React</p>
+                            </div>
+                            <div className="tech-skill">
+                                <Html5 className="icon" fill="#D48C63" />
+                                <p>HTML5</p>
+                            </div>
+                            <div className="tech-skill">
+                                <Css3 className="icon" fill="#D48C63" />
+                                <p>CSS3</p>
+                            </div>
+                            <div className="tech-skill">
+                                <JavaScript className="icon" fill="#D48C63" />
+                                <p>JavaScript</p>
+                            </div>
+                            <div className="tech-skill">
+                                <Bootstrap className="icon" fill="#D48C63" />
+                                <p>Bootstrap</p>
+                            </div>
+                            <div className="tech-skill">
+                                <Gatsby className="icon" fill="#D48C63" />
+                                <p>Gatsby</p>
+                            </div>
+                            <div className="tech-skill">
+                                <MaterialUI className="icon" fill="#D48C63" />
+                                <p>Material-UI</p>
+                            </div>
+                            <div className="tech-skill">
+                                <SQLite className="icon" fill="#D48C63" />
+                                <p>SQLite</p>
+                            </div>
                         </div>
                     </div>
                 </div>
