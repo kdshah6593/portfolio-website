@@ -101,12 +101,12 @@
     font-size: 60px;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: -5px;
 }
 
 #contact-body {
     display: flex;
     flex-direction: column;
-    /* margin: 0 25%; */
 }
 
 .contact-list {
