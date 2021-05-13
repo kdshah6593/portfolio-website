@@ -6,6 +6,10 @@
     font-family: 'Nova Flat';
 }
 
+.righteous-font {
+    font-family: 'Righteous';
+}
+
 .text-color {
     color: #D48C63;
 }
@@ -58,10 +62,6 @@
     margin-right: 20px;
 }
 
-/* #about-text-container {
-    
-} */
-
 #technical-skills {
     display: flex;
     flex-direction: row;
@@ -88,4 +88,47 @@
 .tech-skill p {
     color: #D48C63;
     font-family: "Righteous";
+}
+
+#contact-header {
+    color: #D48C63;
+    font-size: 90px;
+    text-align: center;
+}
+
+#contact-subheader {
+    color: #D48C63;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contact-body {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 25%; */
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-list a {
+    text-decoration: none;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+}
+
+.contact-item p {
+    font-family: 'Nova Flat';
+    color: #D48C63;
+    font-size: 40px;
+    padding-top: 35px;
+    margin-left: 10px;
 }
