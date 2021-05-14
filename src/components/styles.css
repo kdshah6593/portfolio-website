@@ -132,3 +132,20 @@
     padding-top: 35px;
     margin-left: 10px;
 }
+
+#project-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-card {
+    border: 1px solid #D48C63;
+    padding: 2rem;
+    margin: auto;
+}
