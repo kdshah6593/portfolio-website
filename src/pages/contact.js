@@ -15,21 +15,21 @@ const Contact = () => {
             <div id="contact-body">
                 <h1 className="marker-font" id="contact-header">Contact Me</h1>
                 <div className="contact-list">
-                    <a href="https://www.linkedin.com/in/kunalshah-6593/" target="_blank">
+                    <a href="https://www.linkedin.com/in/kunalshah-6593/" target="_blank" rel="noreferrer">
                         <div className="contact-item">
                             <LinkedIn className="icon" fill="#D48C63" />
                             <p>LinkedIn</p>
                         </div>
                     </a>
                     <div style={{borderLeft:`2px solid #D48C63`, height:`125px`}}></div>
-                    <a href="https://github.com/kdshah6593" target="_blank">
+                    <a href="https://github.com/kdshah6593" target="_blank" rel="noreferrer">
                         <div className="contact-item">
                             <GitHub className="icon" fill="#D48C63" />
                             <p>GitHub</p>
                         </div>
                     </a>
                     <div style={{borderLeft:`2px solid #D48C63`, height:`125px`}}></div>
-                    <a href="mailto:kdshah6593@gmail.com" target="_blank">
+                    <a href="mailto:kdshah6593@gmail.com" target="_blank" rel="noreferrer">
                         <div className="contact-item">
                             <Gmail className="icon" fill="#D48C63" />
                             <p>Email Me</p>
@@ -38,7 +38,7 @@ const Contact = () => {
                 </div>
                 <h2 className="marker-font" id="contact-subheader">Check out My Blog</h2>
                 <div className="contact-list">
-                    <a href="https://kdshah6593.medium.com/" target="_blank">
+                    <a href="https://kdshah6593.medium.com/" target="_blank" rel="noreferrer">
                         <div className="contact-item">
                             <Medium className="icon" fill="#D48C63" />
                             <p>Medium</p>
