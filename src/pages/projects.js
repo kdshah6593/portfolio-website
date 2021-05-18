@@ -97,7 +97,7 @@ const NotLiveProject = (props) => (
             <CardTitle>{props.title}</CardTitle>
             <CardDescription>{props.description}</CardDescription>
             <LinkWrapper>
-                <CardLink to="#" target="_blank">Source Code</CardLink>
+                <CardLink to={props.github} target="_blank">Source Code</CardLink>
             </LinkWrapper>
         </CardText>
     </CardWrapper>
@@ -130,16 +130,19 @@ const Projects = () => {
                         title="Stock Tracker"
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         image={StudyDecks}
+                        github="https://github.com/kdshah6593/Stock-Tracker"
                     />
                     <NotLiveProject
                         title="FiTracker"
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         image={StudyDecks}
+                        github="https://github.com/kdshah6593/FITracker"
                     />
                     <NotLiveProject
                         title="LOL Champions"
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         image={StudyDecks}
+                        github="https://github.com/kdshah6593/League_of_Legends_Champions"
                     />
                 </CardContainer>
             </div>
