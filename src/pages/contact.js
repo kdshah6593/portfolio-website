@@ -6,7 +6,6 @@ import LinkedIn from "../images/icons/linkedin.svg"
 import GitHub from "../images/icons/github.svg"
 import Medium from "../images/icons/medium.svg"
 import Gmail from "../images/icons/gmail.svg"
-import { Link } from "gatsby"
 
 const Contact = () => {
     return (
