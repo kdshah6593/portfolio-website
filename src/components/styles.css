@@ -133,6 +133,12 @@
     margin-left: 10px;
 }
 
+#project-header {
+    color: #D48C63;
+    font-size: 90px;
+    text-align: center;
+}
+
 #project-body {
     display: flex;
     flex-direction: column;
