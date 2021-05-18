@@ -20,8 +20,9 @@ flex-direction: row;
 width: 100%;
 padding: 10px;
 margin-bottom: 1rem;
-border: 2px solid #D48C63;
+border: 5px solid #000;
 border-radius: 1rem;
+background: #D48C63;
 `
 
 const CardText = styled.div`
@@ -35,17 +36,21 @@ width: 60%;
 const CardImage = styled.img`
 width: 40%;
 height: 90%;
-padding: 10px;
+padding: 5px;
+border-radius: 10px;
+margin: 0;
 `
 
 const CardTitle = styled.h2`
-font-family: "Righteous";
+font-family: "Nova Flat";
 margin-bottom: 1rem;
+color: #fff;
 `
 
 const CardDescription = styled.p`
 flex-grow: 2;
 margin-bottom: 0.5rem;
+color: #fff;
 `
 
 const LinkWrapper = styled.div`
@@ -55,11 +60,19 @@ justify-content: center;
 `
 
 const CardLink = styled(Link)`
-border: 1px solid black;
-border-radius: 3px;
+border: 2px solid #000;
+border-radius: 3rem;
 text-decoration: none;
-padding: 0.25rem;
+padding: 0 1rem;
 margin: 0 5px;
+background: #fff;
+color: #000;
+font-family: "Nova Flat";
+font-size: 16px;
+&:hover {
+    background: #6385D4;
+    color: #fff;
+}
 `
 
 const LiveProject = (props) => (
