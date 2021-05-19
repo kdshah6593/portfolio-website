@@ -3,12 +3,24 @@ import "../components/styles.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Link } from "gatsby"
-import styled from "styled-components"
+import styled, { keyframes } from "styled-components"
 import StudyDecks from "../images/studydecks_main.png"
 import SportsReport from "../images/sports-report-articles.png"
 import StockTracker from "../images/stock_tracker.png"
 import FiTracker from "../images/fitracker.png"
 import LOLChampions from "../images/lolchamps.png"
+
+const moveRight = keyframes`
+0% {
+    opacity: 0;
+    transform: translateX(-500px)
+}
+
+100% {
+    opacity: 1;
+    transform: translate(0);
+}
+`
 
 const CardContainer = styled.div`
 display: flex;
@@ -18,7 +30,8 @@ margin: 0 auto;
 width: 50%;
 `
 
-const CardWrapper = styled.div`
+const CardWrapper = styled.div.attrs(() =>({
+    tabIndex: 0 }))`
 display: flex;
 flex-direction: row;
 width: 100%;
@@ -27,6 +40,19 @@ margin-bottom: 1rem;
 border: 5px solid #000;
 border-radius: 1rem;
 background: #D48C63;
+animation: ${moveRight} 1s ease-out;
+& + & {
+    animation: ${moveRight} 1.4s ease-out;
+}
+& + & + & {
+    animation: ${moveRight} 1.8s ease-out;
+}
+& + & + & + & {
+    animation: ${moveRight} 2.2s ease-out;
+}
+& + & + & + & + & {
+    animation: ${moveRight} 2.6s ease-out;
+}
 `
 
 const CardText = styled.div`
