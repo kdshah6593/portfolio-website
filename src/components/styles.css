@@ -22,6 +22,8 @@
     color: #D48C63;
     text-align: center;
     font-size: 120px;
+    display: block;
+    animation: moveDown 1s ease-in;
 }
 
 #index-body {
@@ -33,6 +35,8 @@
     text-align: center;
     color: #D48C63;
     font-family: 'Nova Flat';
+    display: block;
+    animation: moveInRight 1.5s ease-in;
 }
 
 #index-subtitle {
@@ -40,7 +44,65 @@
     text-align: center;
     color: #D48C63;
     font-family: 'Nova Flat';
+    display: block;
+    animation: moveInLeft 2s ease-in;
 }
+
+.drop-down1 {
+    display: block;
+    animation: moveInRight 1.5s ease-in;
+}
+
+.drop-down2 {
+    display: block;
+    animation: moveInLeft 2s ease-in
+}
+
+@keyframes moveDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-200px)
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+  }
+
+  @keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-500px)
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateX(-250px)
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+  }
+
+  @keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateY(500px);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateX(250px)
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+  }
 
 #about-header {
     color: #D48C63;
@@ -144,14 +206,18 @@
     flex-direction: column;
 }
 
-#projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+/* .project-move {
+    animation: projectMoveRight 1s ease-out;
 }
 
-.project-card {
-    border: 1px solid #D48C63;
-    padding: 2rem;
-    margin: auto;
-}
+@keyframes projectMoveRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-500px)
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+  } */
