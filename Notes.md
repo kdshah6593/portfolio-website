@@ -1,7 +1,2 @@
-## Use React Spring for animations
-## Use gatsby-plugin-transitions
-
-
 # Add Animations for pages
-
-# Consider Adding Links to Demos
+- Animations for About Page and Contact Page
