@@ -213,6 +213,7 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: -5px;
+    animation: moveUp 1s ease-out;
 }
 
 #contact-body {
@@ -234,6 +235,7 @@
     display: flex;
     flex-direction: row;
     margin: 20px 20px;
+    animation: moveInRight 1s ease-in;
 }
 
 .contact-item p {
@@ -254,4 +256,8 @@
 #project-body {
     display: flex;
     flex-direction: column;
+}
+
+.vertical-lines {
+    animation: moveInRight 1s ease-in;
 }

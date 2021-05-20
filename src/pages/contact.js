@@ -10,7 +10,7 @@ import Gmail from "../images/icons/gmail.svg"
 const Contact = () => {
     return (
         <Layout>
-            <Seo title="Projects" />
+            <Seo title="Contact" />
             <div id="contact-body">
                 <h1 className="marker-font" id="contact-header">Contact Me</h1>
                 <div className="contact-list">
@@ -20,14 +20,14 @@ const Contact = () => {
                             <p>LinkedIn</p>
                         </div>
                     </a>
-                    <div style={{borderLeft:`2px solid #D48C63`, height:`125px`}}></div>
+                    <div className="vertical-lines" style={{borderLeft:`2px solid #D48C63`, height:`125px`}}></div>
                     <a href="https://github.com/kdshah6593" target="_blank" rel="noreferrer">
                         <div className="contact-item">
                             <GitHub className="icon" fill="#D48C63" />
                             <p>GitHub</p>
                         </div>
                     </a>
-                    <div style={{borderLeft:`2px solid #D48C63`, height:`125px`}}></div>
+                    <div className="vertical-lines" style={{borderLeft:`2px solid #D48C63`, height:`125px`}}></div>
                     <a href="mailto:kdshah6593@gmail.com" target="_blank" rel="noreferrer">
                         <div className="contact-item">
                             <Gmail className="icon" fill="#D48C63" />
