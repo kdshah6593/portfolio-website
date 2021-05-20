@@ -107,6 +107,7 @@
 #about-header {
     color: #D48C63;
     font-size: 90px;
+    animation: moveDown 1s ease-in;
 }
 
 #about-body {
@@ -124,13 +125,60 @@
     margin-right: 20px;
 }
 
+#about-profile-image {
+    animation: picInRight 1s ease-out;
+}
+
+#about-paragraph {
+    padding-right: 5rem;
+    animation: pgInLeft 1s ease-out;
+}
+
+@keyframes picInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-500px)
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+  }
+
+  @keyframes pgInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(400px)
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+  }
+
 #technical-skills {
     display: flex;
     flex-direction: row;
+    animation: moveUp 1s ease-out;
+}
+
+@keyframes moveUp {
+    0% {
+        opacity: 0;
+        transform: translateY(500px)
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 #tech-skills-header {
     font-size: 50px;
+    animation: moveUp 1s ease-out;
 }
 
 .icon {
@@ -156,6 +204,7 @@
     color: #D48C63;
     font-size: 90px;
     text-align: center;
+    animation: moveDown 1s ease-in;
 }
 
 #contact-subheader {
@@ -199,25 +248,10 @@
     color: #D48C63;
     font-size: 90px;
     text-align: center;
+    animation: moveDown 1s ease-in;
 }
 
 #project-body {
     display: flex;
     flex-direction: column;
 }
-
-/* .project-move {
-    animation: projectMoveRight 1s ease-out;
-}
-
-@keyframes projectMoveRight {
-    0% {
-        opacity: 0;
-        transform: translateX(-500px)
-    }
-  
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-  } */
