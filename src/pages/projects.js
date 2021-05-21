@@ -81,6 +81,7 @@ const CardDescription = styled.p`
 flex-grow: 2;
 margin-bottom: 0.5rem;
 color: #fff;
+font-family: "Montserrat";
 `
 
 const LinkWrapper = styled.div`

@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                     <div className="about-container-element" id="about-text-container">
                         <h1 className="marker-font" id="about-header">About Me.</h1>
-                        <p id="about-paragraph">I am a Full-Stack web developer skilled in React and Rails with passionate aspirations to help build and develop apps that positively impact people - either in their day-to-day life or on a global level. I strive to construct apps that increase quality of life and productivity of people using programming to either simplify tasks, expand accessibility of information or solve ongoing issues. 
+                        <p id="about-paragraph" className="montserrat-font">I am a Full-Stack web developer skilled in React and Rails with passionate aspirations to help build and develop apps that positively impact people - either in their day-to-day life or on a global level. I strive to construct apps that increase quality of life and productivity of people using programming to either simplify tasks, expand accessibility of information or solve ongoing issues. 
                         <br/><br/> 
                         I'm an innately curious person always eager to learn something new. I've always wanted to build something with my hands, but I was no crafstman. Programming allows me to develop, design and construct. Creating that first CLI project and seeing it work in my terminal - something built (or typed) by my own hands - I was hooked. 
                         <br/><br/>

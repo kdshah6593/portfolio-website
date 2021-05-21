@@ -43,7 +43,7 @@ module.exports = {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
-          families: ['Permanent Marker', 'Nova Flat:400', 'Righteous:400']
+          families: ['Permanent Marker', 'Nova Flat:400', 'Righteous:400', 'Montserrat:400']
         }
       }
     },

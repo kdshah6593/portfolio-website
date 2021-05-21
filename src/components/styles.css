@@ -10,6 +10,10 @@
     font-family: 'Righteous';
 }
 
+.montserrat-font {
+    font-family: 'Montserrat';
+}
+
 .text-color {
     color: #D48C63;
 }
@@ -132,6 +136,7 @@
 #about-paragraph {
     padding-right: 5rem;
     animation: pgInLeft 1s ease-out;
+    font-size: 16px;
 }
 
 @keyframes picInRight {
