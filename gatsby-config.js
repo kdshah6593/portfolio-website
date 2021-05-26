@@ -6,6 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Kunal's Portfolio Site`,
     description: `Kunal - Full Stack Web Developer - Portfolio Website built using GatsbyJS`,
+    image: `/src/images/ks-logo-orange-grey-cropped.png`,
     author: `Kunal Shah`,
     menuLinks:[
       {
