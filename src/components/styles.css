@@ -133,6 +133,11 @@
     animation: picInRight 1s ease-out;
 }
 
+#about-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
 #about-paragraph {
     padding-right: 5rem;
     animation: pgInLeft 1s ease-out;
@@ -205,6 +210,32 @@
     font-family: "Righteous";
 }
 
+@media only screen and (max-width: 480px) {
+    #about-container {
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .about-container-element {
+        margin: 0 auto;
+    }
+
+    #about-header {
+        font-size: 50px;
+        margin: 0 auto;
+    }
+
+    #about-paragraph {
+        margin: 0;
+        padding: 0;
+    }
+
+    #technical-skills {
+        flex-direction: column;
+    }
+}
+
 #contact-header {
     color: #D48C63;
     font-size: 90px;
@@ -251,6 +282,31 @@
     margin-left: 10px;
 }
 
+.vertical-lines {
+    animation: moveInRight 1s ease-in;
+    border-left: 2px solid #D48C63;
+    height: 125px;
+}
+
+@media only screen and (max-width: 480px) {
+    #contact-header {
+        font-size: 60px;
+    }
+    
+    .contact-list {
+        flex-direction: column;
+    }
+
+    .vertical-lines {
+        border-left: hidden;
+        border-bottom: 2px solid #D48C63;
+        width: 300px;
+        margin: 0 auto;
+        height: 0px;
+        
+    }
+}
+
 #project-header {
     color: #D48C63;
     font-size: 90px;
@@ -263,6 +319,8 @@
     flex-direction: column;
 }
 
-.vertical-lines {
-    animation: moveInRight 1s ease-in;
+@media only screen and (max-width: 480px) {
+    #project-header {
+        font-size: 60px;
+    }
 }

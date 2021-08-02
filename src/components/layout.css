@@ -610,7 +610,7 @@ pre tt:after {
 .click {
   list-style-type: none;
   background: #D48C63;
-  margin-right: 10px;
+  margin:0 5px;
   width: 7rem;
   border: 2px solid #D48C63;
   border-radius: 30px;
@@ -631,4 +631,34 @@ li.click:hover {
   display: block;
   text-align: center;
   font-family: 'Nova Flat';
+}
+
+.nav-header {
+  background: #E4E4E4;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-button-list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1.5rem;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 480px) {
+  .nav-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin: 0 auto;
+  }
+
+  .nav-button-list {
+    margin: 0 auto;
+  }
 }

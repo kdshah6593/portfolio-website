@@ -22,14 +22,14 @@ const About = () => {
             <Seo title="About" />
             <div id="about-body">
                 <div id="about-container">
-                    <div id="about-profile-image">
+                    <div className="about-container-element" id="about-profile-image">
                         <StaticImage
                             src="../images/kunal-shah-greyed.png"
-                            width={900}
+                            layout="constrained"
+                            width={1000}
                             quality={95}
                             formats={["AUTO", "WEBP", "AVIF"]}
-                            alt="Kunal Shah Profile Picture"
-                            className="about-container-element"
+                            alt="Kunal Shah Profile Picture"  
                         />
                     </div>
                     <div className="about-container-element" id="about-text-container">

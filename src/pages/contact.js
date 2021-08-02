@@ -20,14 +20,14 @@ const Contact = () => {
                             <p>LinkedIn</p>
                         </div>
                     </a>
-                    <div className="vertical-lines" style={{borderLeft:`2px solid #D48C63`, height:`125px`}}></div>
+                    <div className="vertical-lines"></div>
                     <a href="https://github.com/kdshah6593" target="_blank" rel="noreferrer">
                         <div className="contact-item">
                             <GitHub className="icon" fill="#D48C63" />
                             <p>GitHub</p>
                         </div>
                     </a>
-                    <div className="vertical-lines" style={{borderLeft:`2px solid #D48C63`, height:`125px`}}></div>
+                    <div className="vertical-lines"></div>
                     <a href="mailto:kdshah6593@gmail.com" target="_blank" rel="noreferrer">
                         <div className="contact-item">
                             <Gmail className="icon" fill="#D48C63" />
