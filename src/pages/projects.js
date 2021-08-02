@@ -1,5 +1,6 @@
 import React from 'react';
 import "../components/styles.css"
+import media from "../components/media"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Link } from "gatsby"
@@ -28,6 +29,9 @@ flex-direction: column;
 align-items: center;
 margin: 0 auto;
 width: 50%;
+${media.mobile`
+    width: 100%;
+`};
 `
 
 const CardWrapper = styled.div.attrs(() =>({
@@ -40,6 +44,9 @@ margin-bottom: 1rem;
 border: 5px solid #000;
 border-radius: 1rem;
 background: #D48C63;
+${media.mobile`
+    flex-direction: column;
+`};
 animation: ${moveRight} 1s ease-out;
 & + & {
     animation: ${moveRight} 1.4s ease-out;
@@ -61,6 +68,9 @@ flex-direction: column;
 padding: 10px;
 text-align: center;
 width: 60%;
+${media.mobile`
+    width: 100%;
+`};
 `
 
 const CardImage = styled.img`
@@ -69,6 +79,9 @@ height: 250px;
 padding: 5px;
 border-radius: 10px;
 margin: 0;
+${media.mobile`
+    width: 100%;
+`};
 `
 
 const CardTitle = styled.h2`
