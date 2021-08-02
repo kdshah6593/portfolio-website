@@ -28,16 +28,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin: 0 auto;
-width: 50%;
 ${media.mobile`
     width: 100%;
+`};
+${media.desktop`
+    width: 50%;
 `};
 `
 
 const CardWrapper = styled.div.attrs(() =>({
     tabIndex: 0 }))`
 display: flex;
-flex-direction: row;
 width: 100%;
 padding: 10px;
 margin-bottom: 1rem;
@@ -46,6 +47,9 @@ border-radius: 1rem;
 background: #D48C63;
 ${media.mobile`
     flex-direction: column;
+`};
+${media.desktop`
+    flex-direction: row;
 `};
 animation: ${moveRight} 1s ease-out;
 & + & {
@@ -67,20 +71,24 @@ display: flex;
 flex-direction: column;
 padding: 10px;
 text-align: center;
-width: 60%;
 ${media.mobile`
     width: 100%;
+`};
+${media.desktop`
+    width: 60%;
 `};
 `
 
 const CardImage = styled.img`
-width: 40%;
 height: 250px;
 padding: 5px;
 border-radius: 10px;
 margin: 0;
 ${media.mobile`
     width: 100%;
+`};
+${media.desktop`
+    width: 40%;
 `};
 `
 
